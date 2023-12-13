@@ -25,7 +25,7 @@
         </conditions>
         <parameters>
           <param name="goals" value="clean deploy" />
-          <param name="localRepoScope" value="agent" />
+          <param name="localRepoScope" value="buildConfiguration" />
           <param name="maven.path" value="%teamcity.tool.maven.DEFAULT%" />
           <param name="pomLocation" value="pom.xml" />
           <param name="runnerArgs" value="-Dmaven.test.failure.ignore=true" />
