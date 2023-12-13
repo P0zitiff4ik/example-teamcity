@@ -3,6 +3,9 @@
   <name>First build Netology</name>
   <description />
   <settings>
+    <options>
+      <option name="artifactRules" value="**/* =&gt; target" />
+    </options>
     <parameters />
     <build-runners>
       <runner id="Maven2_1" name="Maven test" type="Maven2">
